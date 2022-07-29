@@ -3,7 +3,13 @@
 <br>
 
 
-I was strugling to align `left-section` and `right-section`. After learning more about Flex-Box finally able to align them.
+I was struggling to make hollow font style but finally able make it like that
+using 
+```
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+```
 
 - It took me around **2 hour 30 min** max to complete the project.
 
