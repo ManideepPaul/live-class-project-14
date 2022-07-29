@@ -31,10 +31,39 @@
     width: 100%
 }
 
+/***************************** Right Section*******************************/
+
 .right {
-    width: 60vh;
+    width: 60vw;
 }
 
+    /************************* Right Nav Section**************************/
+.navbar {
+    padding: 80px 100px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar > .line {
+    height: 1.6px;
+    flex-grow: 1;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.navbar > a {
+    color: #797878;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.line + a {
+    color: #000000;
+}
+
+    /************************* Right Hero Section**************************/
 
 h1 > p {
     font-family: 'Merriweather', serif;
@@ -51,4 +80,6 @@ h1 > span {
 .dance > img {
     width: 100px;
     height: 150px;
+    position: relative;
 }
+
