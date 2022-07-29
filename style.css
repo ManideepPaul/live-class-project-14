@@ -142,7 +142,6 @@ h1 > span + span {
     align-items: flex-start;
     justify-content: space-between;
     gap: 100px;
-    
 }
 
 .types {
@@ -186,6 +185,7 @@ h1 > span + span {
 .type ~ .type > p {
     color: #797878;
 }
+
 .dance {
     display: flex;
     flex-grow: 1;
@@ -198,7 +198,6 @@ h1 > span + span {
 .dance p {
     margin: 15px 0;
     font-size: 18px;
-
 }
 
 .quote {
