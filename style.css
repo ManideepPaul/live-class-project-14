@@ -35,15 +35,17 @@
 
 .right {
     width: 60vw;
+    padding: 80px 100px 0 50px;
 }
 
     /************************* Right Nav Section**************************/
+
 .navbar {
-    padding: 80px 100px 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin-bottom: 20px;
 }
 
 .navbar > .line {
@@ -65,12 +67,66 @@
 
     /************************* Right Hero Section**************************/
 
+.heroTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    position: relative;
+}
+
 h1 > p {
     font-family: 'Merriweather', serif;
+    font-size: 116px;
+    font-weight: 900;
+}
+
+h1 > p:first-child {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
 }
 
 h1 > span {
     font-family: 'Merriweather', serif;
+    font-size: 116px;
+    font-weight: 900;
+    margin-left: 120px;
+}
+
+h1 > span + span {
+    color: #797878;
+    font-size: 38px;
+    font-weight: 300;
+    position: absolute;
+    left: 370px;
+    bottom: 15px;
+}
+
+.social {
+    justify-self: flex-end;
+    width: 70px;
+}
+
+.social > img {
+    display: block;
+    margin: 50px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heroBtn {
+    padding: 15px 60px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .dance {
