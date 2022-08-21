@@ -66,6 +66,10 @@
     color: #000000;
 }
 
+.menu {
+    display: none;
+}
+
     /************************* Right Hero Section**************************/
 
 .heroTop {
